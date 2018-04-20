@@ -1,0 +1,2866 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuditFile
+	xmlns="urn:OECD:StandardAuditFile-Tax:PT_1.04_01"
+	xmlns:schemaLocation="urn:OECD:StandardAuditFile-Tax:PT_1.04_01 .\SAFTPT1.04_01.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<AuditFileVersion>1.04_01</AuditFileVersion>
+		<CompanyID>SINTRA 513626930</CompanyID>
+		<TaxRegistrationNumber>513626930</TaxRegistrationNumber>
+		<TaxAccountingBasis>C</TaxAccountingBasis>
+		<CompanyName>Candor Renting S.A.</CompanyName>
+		<CompanyAddress>
+			<AddressDetail>Rua do Mar da China, Nº1, 2.2, Parque das Nações</AddressDetail>
+			<City>Lisboa</City>
+			<PostalCode>1990-137</PostalCode>
+			<Country>PT</Country>
+		</CompanyAddress>
+		<FiscalYear>2018</FiscalYear>
+		<StartDate>2018-01-01</StartDate>
+		<EndDate>2018-12-31</EndDate>
+		<CurrencyCode>EUR</CurrencyCode>
+		<DateCreated>2018-04-20</DateCreated>
+		<TaxEntity>Sede</TaxEntity>
+		<ProductCompanyTaxID>513626930</ProductCompanyTaxID>
+		<SoftwareCertificateNumber>0</SoftwareCertificateNumber>
+		<ProductID>Candor_SAFT_Generator</ProductID>
+		<ProductVersion>2018.01</ProductVersion>
+		<Website>www.candor.pt</Website>
+	</Header>
+	<MasterFiles>
+		<GeneralLedgerAccounts>
+			<TaxonomyReference>S</TaxonomyReference>
+			<Account>
+				<AccountID>781</AccountID>
+				<AccountDescription>781 - RENDIMENTOS SUPLEMENTARES</AccountDescription>
+				<OpeningDebitBalance>0</OpeningDebitBalance>
+				<OpeningCreditBalance>0</OpeningCreditBalance>
+				<ClosingDebitBalance>0</ClosingDebitBalance>
+				<ClosingCreditBalance>0</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>78</GroupingCode>
+				<TaxonomyCode>1</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>69</AccountID>
+				<AccountDescription>69 - GASTOS E PERDAS DE FINANCIAMENTO</AccountDescription>
+				<OpeningDebitBalance>0</OpeningDebitBalance>
+				<OpeningCreditBalance>0</OpeningCreditBalance>
+				<ClosingDebitBalance>0</ClosingDebitBalance>
+				<ClosingCreditBalance>0</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>6</GroupingCode>
+				<TaxonomyCode>1</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>626</AccountID>
+				<AccountDescription>626 - SERVIÇOS DIVERSOS</AccountDescription>
+				<OpeningDebitBalance>0</OpeningDebitBalance>
+				<OpeningCreditBalance>0</OpeningCreditBalance>
+				<ClosingDebitBalance>0</ClosingDebitBalance>
+				<ClosingCreditBalance>0</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>62</GroupingCode>
+				<TaxonomyCode>1</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>81</AccountID>
+				<AccountDescription>81 - RESULTADO LÍQUIDO DO PERÍODO</AccountDescription>
+				<OpeningDebitBalance>0</OpeningDebitBalance>
+				<OpeningCreditBalance>0</OpeningCreditBalance>
+				<ClosingDebitBalance>0</ClosingDebitBalance>
+				<ClosingCreditBalance>0</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>8</GroupingCode>
+				<TaxonomyCode>1</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>6</AccountID>
+				<AccountDescription>6 - GASTOS</AccountDescription>
+				<OpeningDebitBalance>0</OpeningDebitBalance>
+				<OpeningCreditBalance>0</OpeningCreditBalance>
+				<ClosingDebitBalance>0</ClosingDebitBalance>
+				<ClosingCreditBalance>0</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+		</GeneralLedgerAccounts>
+		<Customer>
+			<CustomerID>0011o00001UG2fYAAT</CustomerID>
+			<AccountID>21111</AccountID>
+			<CustomerTaxID>510726380</CustomerTaxID>
+			<CompanyName>COEFICIENTE DOS TEMPEROS, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA INFANTE DOM HENRIQUE, 95</AddressDetail>
+				<City>PORTO</City>
+				<PostalCode>4050-298</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>0011o00001SmrcGAAR</CustomerID>
+			<AccountID>21111</AccountID>
+			<CustomerTaxID>514507866</CustomerTaxID>
+			<CompanyName>514507866</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Desconhecido</AddressDetail>
+				<City>Desconhecido</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>0011o00001SmuaPAAR</CustomerID>
+			<AccountID>21111</AccountID>
+			<CustomerTaxID>510242006</CustomerTaxID>
+			<CompanyName>SUPERPALMEIRA, UNIPESSOAL, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA DA PALMEIRA, 213, LABORIM</AddressDetail>
+				<City>VILA NOVA DE GAIA</City>
+				<PostalCode>4430-163</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>0011o00001SmuLkAAJ</CustomerID>
+			<AccountID>21111</AccountID>
+			<CustomerTaxID>505824752</CustomerTaxID>
+			<CompanyName>JOAQUIM ROCHA SILVA - CAR - COMÉRCIO DE PEÇAS AUTO, SOCIEDADE UNIPESSOAL, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA DOUTOR FRANCISCO SÁ CARNEIRO, 161</AddressDetail>
+				<City>GONDOMAR</City>
+				<PostalCode>4420-129</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>0011o00001SmxPvAAJ</CustomerID>
+			<AccountID>21111</AccountID>
+			<CustomerTaxID>505372100</CustomerTaxID>
+			<CompanyName>TRANSPORTES ARAÚJO &amp; SILVA, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>FUNDEVILA</AddressDetail>
+				<City>DEVESA</City>
+				<PostalCode>4730-210</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Supplier>
+			<SupplierID>001240000104bh5AAA</SupplierID>
+			<AccountID>22114</AccountID>
+			<SupplierTaxID>503857688</SupplierTaxID>
+			<CompanyName>MAREGINTER - COMÉRCIO INTERNACIONAL, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA ABEL SALAZAR, 39B, ALTO DA FAIA</AddressDetail>
+				<City>LISBOA</City>
+				<PostalCode>1600-817</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>0012400000hk9E3AAI</SupplierID>
+			<AccountID>22114</AccountID>
+			<SupplierTaxID>513647414</SupplierTaxID>
+			<CompanyName>BFDC - CONSULTORIA E COMUNICAÇÃO, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA DO PINHAL, 30, ANDRINOS</AddressDetail>
+				<City>LEIRIA</City>
+				<PostalCode>2410-018</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>001240000104ULCAA2</SupplierID>
+			<AccountID>22114</AccountID>
+			<SupplierTaxID>508607078</SupplierTaxID>
+			<CompanyName>PMESOFT, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA NOSSA SENHORA DAS NECESSIDADES, 8A, ESGUEIRA</AddressDetail>
+				<City>AVEIRO</City>
+				<PostalCode>3800-317</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>001240000104iSXAAY</SupplierID>
+			<AccountID>22114</AccountID>
+			<SupplierTaxID>500686947</SupplierTaxID>
+			<CompanyName>UTEC - UNIÃO TÉCNICAS DE SOLDADURA, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>AVENIDA LEITE DE VASCONCELOS, 3/5</AddressDetail>
+				<City>AMADORA</City>
+				<PostalCode>2610-100</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>001240000104UwDAAU</SupplierID>
+			<AccountID>22114</AccountID>
+			<SupplierTaxID>508525799</SupplierTaxID>
+			<CompanyName>TOOGAS, LDA</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RUA 28 DE JANEIRO, 350 FRAÇÃO 11, EDIFÍCIO CC</AddressDetail>
+				<City>VILA NOVA DE GAIA</City>
+				<PostalCode>4400-335</PostalCode>
+				<Country>PT</Country>
+			</BillingAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Product>
+			<ProductType>S</ProductType>
+			<ProductCode>PT11</ProductCode>
+			<ProductDescription>Seguro de Equipamentos e Dados Electrónicos Proporcional</ProductDescription>
+			<ProductNumberCode>PT11</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>O</ProductType>
+			<ProductCode>PT13</ProductCode>
+			<ProductDescription>3º. Aviso ou interpelação</ProductDescription>
+			<ProductNumberCode>PT13</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>S</ProductType>
+			<ProductCode>PT02</ProductCode>
+			<ProductDescription>Seguro de Equipamentos e Dados Electrónicos</ProductDescription>
+			<ProductNumberCode>PT02</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>O</ProductType>
+			<ProductCode>PT15</ProductCode>
+			<ProductDescription>Juros de Mora</ProductDescription>
+			<ProductNumberCode>PT15</ProductNumberCode>
+		</Product>
+		<TaxTable>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>NOR</TaxCode>
+				<Description>Regularização IVA 22%</Description>
+				<TaxPercentage>22.0</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>NOR</TaxCode>
+				<Description>Regularização IVA 23%</Description>
+				<TaxPercentage>23.0</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>NS</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Regularização IVA 0%</Description>
+				<TaxPercentage>0.0</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>NOR</TaxCode>
+				<Description>Regularização IVA 18%</Description>
+				<TaxPercentage>18.0</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>NOR</TaxCode>
+				<Description>Regularização Açores IVA 18%</Description>
+				<TaxPercentage>18.0</TaxPercentage>
+			</TaxTableEntry>
+		</TaxTable>
+	</MasterFiles>
+	<GeneralLedgerEntries>
+		<NumberOfEntries>243</NumberOfEntries>
+		<TotalDebit>485830.51</TotalDebit>
+		<TotalCredit>489866.90</TotalCredit>
+		<Journal>
+			<JournalID>PIN</JournalID>
+			<Description>Pagamentos a Fornecedores</Description>
+			<Transaction>
+				<TransactionID>2017-11-30 PIN PIN003856</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-30</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Portal Cliente Angular: Horas Outubro Help Center HTML: Horas Outubro</Description>
+				<DocArchivalNumber>PIN003856</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-30</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>a3h1o000000EVNtAAO</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-12-04T10:07:04.000Z</SystemEntryDate>
+						<Description>Portal Cliente Angular: Horas Outubro&#13;
+Help Center HTML: Horas Outubro</Description>
+						<CreditAmount>1463.7</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNuAAO</RecordID>
+						<AccountID>622102</AccountID>
+						<SystemEntryDate>2017-12-04T10:07:04.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>1190.0</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-30 PIN PIN003855</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-30</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Portal Cliente Angular: Horas Setembro Help Center HTML: Horas Setembro</Description>
+				<DocArchivalNumber>PIN003855</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-30</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>a3h1o000000EVNoAAO</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-12-04T09:55:22.000Z</SystemEntryDate>
+						<Description>Portal Cliente Angular: Horas Setembro&#13;
+Help Center HTML: Horas Setembro</Description>
+						<CreditAmount>4477.2</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNpAAO</RecordID>
+						<AccountID>622102</AccountID>
+						<SystemEntryDate>2017-12-04T09:55:22.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>3640.0</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNqAAO</RecordID>
+						<AccountID>243231</AccountID>
+						<SystemEntryDate>2017-12-04T09:55:22.000Z</SystemEntryDate>
+						<Description>OBSCONT23</Description>
+						<DebitAmount>837.2</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>PCR</JournalID>
+			<Description>Notas de Crédito a Fornecedores</Description>
+			<Transaction>
+				<TransactionID>2017-07-28 PCR PCR000068</TransactionID>
+				<Period>007</Period>
+				<TransactionDate>2017-07-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003165</Description>
+				<DocArchivalNumber>PCR000068</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-07-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DvX5AAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-09-21T17:24:42.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003165</Description>
+						<DebitAmount>3813.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DvX6AAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-09-21T17:24:42.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3100.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DvX7AAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-09-21T17:24:42.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>713.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000100</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004059</Description>
+				<DocArchivalNumber>PCR000100</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsTRAA0</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T13:13:13.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004059</Description>
+						<DebitAmount>784.74</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsTSAA0</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T13:13:13.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>638.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsTTAA0</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T13:13:13.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>146.74</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-27 PCR PCR000085</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-27</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003819</Description>
+				<DocArchivalNumber>PCR000085</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-27</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ETbBAAW</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-28T10:46:57.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003819</Description>
+						<DebitAmount>30169.6</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ETbCAAW</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-28T10:46:57.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>24528.13</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ETbDAAW</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-28T10:46:57.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>5641.47</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-10-19 PCR PCR000076</TransactionID>
+				<Period>010</Period>
+				<TransactionDate>2017-10-19</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003234</Description>
+				<DocArchivalNumber>PCR000076</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-10-19</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000E3m5AAC</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-19T16:15:06.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003234</Description>
+						<DebitAmount>18013.97</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000E3m6AAC</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-19T16:15:06.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>14645.5</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E3m7AAC</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-19T16:15:06.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>3368.47</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-09-08 PCR PCR000077</TransactionID>
+				<Period>009</Period>
+				<TransactionDate>2017-09-08</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Desconhecido</Description>
+				<DocArchivalNumber>PCR000077</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-09-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000E4BXAA0</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-10-23T14:03:11.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>336.24</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4BYAA0</RecordID>
+						<AccountID>6243</AccountID>
+						<SystemEntryDate>2017-10-23T14:03:11.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>137.7</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4BZAA0</RecordID>
+						<AccountID>6243</AccountID>
+						<SystemEntryDate>2017-10-23T14:03:11.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>190.28</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4BaAAK</RecordID>
+						<AccountID>2432311</AccountID>
+						<SystemEntryDate>2017-10-23T14:03:11.000Z</SystemEntryDate>
+						<Description>OBSCONT06</Description>
+						<CreditAmount>8.26</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-28 PCR PCR000087</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003831</Description>
+				<DocArchivalNumber>PCR000087</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ETsyAAG</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-28T17:50:07.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003831</Description>
+						<DebitAmount>26167.36</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ETszAAG</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-28T17:50:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>21274.28</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ETt0AAG</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-28T17:50:07.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>4893.08</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-10-23 PCR PCR000080</TransactionID>
+				<Period>010</Period>
+				<TransactionDate>2017-10-23</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003541</Description>
+				<DocArchivalNumber>PCR000080</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-10-23</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000E4EjAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-23T16:04:48.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003541</Description>
+						<DebitAmount>3676.47</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4EkAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-23T16:04:48.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2989.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4ElAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-23T16:04:48.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>687.47</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-07-18 PCR PCR000058</TransactionID>
+				<Period>007</Period>
+				<TransactionDate>2017-07-18</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002422</Description>
+				<DocArchivalNumber>PCR000058</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-07-18</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000005B3bAAE</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-07-18T16:49:38.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002422</Description>
+						<DebitAmount>9191.18</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000005B3cAAE</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-07-18T16:49:38.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>7472.5</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000005B3dAAE</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-07-18T16:49:38.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>1718.68</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-13 PCR PCR000081</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-13</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003609</Description>
+				<DocArchivalNumber>PCR000081</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-13</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000EQFZAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-15T09:10:21.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003609</Description>
+						<DebitAmount>2946.64</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000EQFaAAO</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-15T09:10:21.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2395.64</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000EQFbAAO</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-15T09:10:21.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>551.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000104</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004071</Description>
+				<DocArchivalNumber>PCR000104</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EscqAAC</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T17:21:15.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004071</Description>
+						<DebitAmount>4216.44</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EscrAAC</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T17:21:15.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3428.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EscsAAC</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T17:21:15.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>788.44</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-28 PCR PCR000090</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004043</Description>
+				<DocArchivalNumber>PCR000090</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000Es8wAAC</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-28T18:06:22.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004043</Description>
+						<DebitAmount>3075.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000Es8xAAC</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-28T18:06:22.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2500.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000Es8yAAC</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-28T18:06:22.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>575.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-10-23 PCR PCR000079</TransactionID>
+				<Period>010</Period>
+				<TransactionDate>2017-10-23</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003540</Description>
+				<DocArchivalNumber>PCR000079</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-10-23</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000E4E9AAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-23T15:59:10.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003540</Description>
+						<DebitAmount>3271.8</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4EAAA0</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-23T15:59:10.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2660.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4EBAA0</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-23T15:59:10.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>611.8</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000101</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004068</Description>
+				<DocArchivalNumber>PCR000101</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EscMAAS</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T16:58:56.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004068</Description>
+						<DebitAmount>1968.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EscNAAS</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T16:58:56.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1600.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EscOAAS</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T16:58:56.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>368.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-03-08 PCR PCR000005</TransactionID>
+				<Period>003</Period>
+				<TransactionDate>2017-03-08</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000408</Description>
+				<DocArchivalNumber>PCR000005</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-03-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000dpPAAQ</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-08T17:39:04.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000408</Description>
+						<DebitAmount>1774.72</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000dpQAAQ</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-03-08T17:39:04.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1442.86</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000dpRAAQ</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-03-08T17:39:04.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>331.86</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-10-16 PCR PCR000075</TransactionID>
+				<Period>010</Period>
+				<TransactionDate>2017-10-16</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003052</Description>
+				<DocArchivalNumber>PCR000075</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-10-16</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000E37KAAS</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-16T11:36:21.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003052</Description>
+						<DebitAmount>1699.4</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000E37LAAS</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-16T11:36:21.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1381.63</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E37MAAS</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-16T11:36:21.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>317.77</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-10 PCR PCR000061</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-10</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002871</Description>
+				<DocArchivalNumber>PCR000061</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-10</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000HgIvAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-08-24T17:00:22.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002871</Description>
+						<DebitAmount>22.76</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000HgIwAAK</RecordID>
+						<AccountID>6225</AccountID>
+						<SystemEntryDate>2017-08-24T17:00:22.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>18.5</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000HgIxAAK</RecordID>
+						<AccountID>243231</AccountID>
+						<SystemEntryDate>2017-08-24T17:00:22.000Z</SystemEntryDate>
+						<Description>OBSCONT23</Description>
+						<CreditAmount>4.26</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-31 PCR PCR000072</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-31</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>GS/16083 - CI</Description>
+				<DocArchivalNumber>PCR000072</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DxUMAA0</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-09-29T16:15:25.000Z</SystemEntryDate>
+						<Description>GS/16083 - CI</Description>
+						<DebitAmount>1774.72</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DxUNAA0</RecordID>
+						<AccountID>3171</AccountID>
+						<SystemEntryDate>2017-09-29T16:15:25.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1442.86</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DxUOAA0</RecordID>
+						<AccountID>2433313</AccountID>
+						<SystemEntryDate>2017-09-29T16:15:25.000Z</SystemEntryDate>
+						<Description>VCONT23</Description>
+						<CreditAmount>331.86</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-05-30 PCR PCR000018</TransactionID>
+				<Period>005</Period>
+				<TransactionDate>2017-05-30</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>prestação de serviços Bruno Palma_corretiva_abril2017</Description>
+				<DocArchivalNumber>PCR000018</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-05-30</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LTkoAAG</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-05-31T09:06:33.000Z</SystemEntryDate>
+						<Description>prestação de serviços Bruno&#13;
+Palma_corretiva_abril2017</Description>
+						<DebitAmount>1476.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LTkpAAG</RecordID>
+						<AccountID>622103</AccountID>
+						<SystemEntryDate>2017-05-31T09:06:33.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1200.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000LTkqAAG</RecordID>
+						<AccountID>243231</AccountID>
+						<SystemEntryDate>2017-05-31T09:06:33.000Z</SystemEntryDate>
+						<Description>OBSCONT23</Description>
+						<CreditAmount>276.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-01-31 PCR PCR000007</TransactionID>
+				<Period>001</Period>
+				<TransactionDate>2017-01-31</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000404</Description>
+				<DocArchivalNumber>PCR000007</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-01-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000eL4AAI</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-10T17:48:11.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000404</Description>
+						<DebitAmount>2693.7</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000eL5AAI</RecordID>
+						<AccountID>3171</AccountID>
+						<SystemEntryDate>2017-03-10T17:48:11.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2190.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000eL6AAI</RecordID>
+						<AccountID>24342111</AccountID>
+						<SystemEntryDate>2017-03-10T17:48:11.000Z</SystemEntryDate>
+						<Description>REGCCONT23</Description>
+						<CreditAmount>503.7</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-09-26 PCR PCR000069</TransactionID>
+				<Period>009</Period>
+				<TransactionDate>2017-09-26</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003150</Description>
+				<DocArchivalNumber>PCR000069</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-09-26</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DwAbAAK</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-09-26T10:43:59.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003150</Description>
+						<DebitAmount>326.98</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DwAcAAK</RecordID>
+						<AccountID>433</AccountID>
+						<SystemEntryDate>2017-09-26T10:43:59.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>265.84</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DwAdAAK</RecordID>
+						<AccountID>2432211</AccountID>
+						<SystemEntryDate>2017-09-26T10:43:59.000Z</SystemEntryDate>
+						<Description>IMOCONT23</Description>
+						<CreditAmount>61.14</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-02-20 PCR PCR000002</TransactionID>
+				<Period>002</Period>
+				<TransactionDate>2017-02-20</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000373</Description>
+				<DocArchivalNumber>PCR000002</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-02-20</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000dmzAAA</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-08T16:30:54.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000373</Description>
+						<DebitAmount>6595.56</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000dn0AAA</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-03-08T16:30:54.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>5362.24</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000dn1AAA</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-03-08T16:30:54.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>1233.32</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-02-20 PCR PCR000010</TransactionID>
+				<Period>002</Period>
+				<TransactionDate>2017-02-20</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000408</Description>
+				<DocArchivalNumber>PCR000010</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-02-20</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000eM7AAI</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-11T14:47:26.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000408</Description>
+						<DebitAmount>1774.72</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000eM8AAI</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-03-11T14:47:26.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1442.86</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000eM9AAI</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-03-11T14:47:26.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>331.86</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000094</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004053</Description>
+				<DocArchivalNumber>PCR000094</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsSYAA0</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:31:43.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004053</Description>
+						<DebitAmount>15373.77</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSZAA0</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:31:43.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>12499.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSaAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:31:43.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>2874.77</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000099</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004058</Description>
+				<DocArchivalNumber>PCR000099</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsTHAA0</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:55:44.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004058</Description>
+						<DebitAmount>3075.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsTIAA0</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:55:44.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2500.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsTJAA0</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:55:44.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>575.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-05-04 PCR PCR000014</TransactionID>
+				<Period>005</Period>
+				<TransactionDate>2017-05-04</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>ANULACAO FT 9911 03.03  ANULACAO PARCIAL FT 4117 04.04</Description>
+				<DocArchivalNumber>PCR000014</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-05-04</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LSceAAG</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-05-19T09:25:48.000Z</SystemEntryDate>
+						<Description>ANULACAO FT 9911 03.03 &#13;
+ANULACAO PARCIAL FT 4117 04.04</Description>
+						<DebitAmount>81.83</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LScfAAG</RecordID>
+						<AccountID>6227</AccountID>
+						<SystemEntryDate>2017-05-19T09:25:48.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>81.83</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-02-06 PCR PCR000000</TransactionID>
+				<Period>002</Period>
+				<TransactionDate>2017-02-06</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000011</Description>
+				<DocArchivalNumber>PCR000000</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-02-06</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000axXAAQ</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-02-06T18:07:02.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000011</Description>
+						<DebitAmount>12.3</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000axYAAQ</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-02-06T18:07:02.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>10.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000axZAAQ</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-02-06T18:07:02.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>2.3</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-23 PCR PCR000082</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-23</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003793</Description>
+				<DocArchivalNumber>PCR000082</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-23</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ESSdAAO</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-23T12:51:14.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003793</Description>
+						<DebitAmount>1476.07</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ESSeAAO</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-23T12:51:14.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1200.06</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ESSfAAO</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-23T12:51:14.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>276.01</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-25 PCR PCR000067</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-25</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003164</Description>
+				<DocArchivalNumber>PCR000067</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-25</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DvWvAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-09-21T17:21:10.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003164</Description>
+						<DebitAmount>1537.5</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DvWwAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-09-21T17:21:10.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1250.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DvWxAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-09-21T17:21:10.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>287.5</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-07-17 PCR PCR000055</TransactionID>
+				<Period>007</Period>
+				<TransactionDate>2017-07-17</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002411</Description>
+				<DocArchivalNumber>PCR000055</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-07-17</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000005B2AAAU</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-07-18T14:23:13.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002411</Description>
+						<DebitAmount>3075.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000005B2BAAU</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-07-18T14:23:13.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2500.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000005B2CAAU</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-07-18T14:23:13.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>575.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000102</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004069</Description>
+				<DocArchivalNumber>PCR000102</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EscWAAS</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T17:02:18.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004069</Description>
+						<DebitAmount>1817.99</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EscXAAS</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T17:02:18.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1478.04</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EscYAAS</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T17:02:18.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>339.95</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-28 PCR PCR000091</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004044</Description>
+				<DocArchivalNumber>PCR000091</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000Es96AAC</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-28T18:08:23.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004044</Description>
+						<DebitAmount>4305.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000Es97AAC</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-28T18:08:23.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3500.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000Es98AAC</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-28T18:08:23.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>805.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-04-28 PCR PCR000017</TransactionID>
+				<Period>004</Period>
+				<TransactionDate>2017-04-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN001852</Description>
+				<DocArchivalNumber>PCR000017</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-04-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LTNRAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-05-26T16:28:57.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN001852</Description>
+						<DebitAmount>25752.42</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LTNSAA4</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-05-26T16:28:57.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>20936.93</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000LTNTAA4</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-05-26T16:28:57.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>4815.49</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000095</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004054</Description>
+				<DocArchivalNumber>PCR000095</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsSdAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:33:40.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004054</Description>
+						<DebitAmount>2485.65</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSeAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:33:40.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2020.85</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSfAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:33:40.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>464.8</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000103</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004070</Description>
+				<DocArchivalNumber>PCR000103</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EscgAAC</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T17:10:25.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004070</Description>
+						<DebitAmount>1377.6</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EschAAC</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T17:10:25.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1120.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsciAAC</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T17:10:25.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>257.6</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-10-23 PCR PCR000078</TransactionID>
+				<Period>010</Period>
+				<TransactionDate>2017-10-23</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003539</Description>
+				<DocArchivalNumber>PCR000078</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-10-23</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000E4DzAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-23T15:40:18.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003539</Description>
+						<DebitAmount>2214.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4E0AAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-23T15:40:18.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1800.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000E4E1AAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-23T15:40:18.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>414.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000097</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004056</Description>
+				<DocArchivalNumber>PCR000097</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsSxAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:41:12.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004056</Description>
+						<DebitAmount>3114.24</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSyAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:41:12.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2531.9</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSzAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:41:12.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>582.34</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-01-31 PCR PCR000009</TransactionID>
+				<Period>001</Period>
+				<TransactionDate>2017-01-31</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000408</Description>
+				<DocArchivalNumber>PCR000009</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-01-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000eLiAAI</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-10T18:03:15.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000408</Description>
+						<DebitAmount>1774.72</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000eLjAAI</RecordID>
+						<AccountID>3171</AccountID>
+						<SystemEntryDate>2017-03-10T18:03:15.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1442.86</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000eLkAAI</RecordID>
+						<AccountID>24342111</AccountID>
+						<SystemEntryDate>2017-03-10T18:03:15.000Z</SystemEntryDate>
+						<Description>REGCCONT23</Description>
+						<CreditAmount>331.86</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-09-06 PCR PCR000063</TransactionID>
+				<Period>009</Period>
+				<TransactionDate>2017-09-06</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Despesas Eduardo - Agosto  FT AUF007/083792</Description>
+				<DocArchivalNumber>PCR000063</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-09-06</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DIHXAA4</RecordID>
+						<AccountID>2312</AccountID>
+						<SystemEntryDate>2017-09-06T14:22:15.000Z</SystemEntryDate>
+						<Description>Despesas Eduardo - Agosto &#13;
+FT AUF007/083792</Description>
+						<DebitAmount>39.99</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DIHYAA4</RecordID>
+						<AccountID>6233</AccountID>
+						<SystemEntryDate>2017-09-06T14:22:15.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>32.51</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DIHZAA4</RecordID>
+						<AccountID>243231</AccountID>
+						<SystemEntryDate>2017-09-06T14:22:15.000Z</SystemEntryDate>
+						<Description>OBSCONT23</Description>
+						<CreditAmount>7.48</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000093</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004052</Description>
+				<DocArchivalNumber>PCR000093</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsNRAA0</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:13:25.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004052</Description>
+						<DebitAmount>3284.1</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsNSAA0</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:13:25.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2670.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsNTAA0</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:13:25.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>614.1</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-31 PCR PCR000074</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-31</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN000416 - CI</Description>
+				<DocArchivalNumber>PCR000074</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DyWtAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-03T11:14:54.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000416 - CI</Description>
+						<DebitAmount>2983.66</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DyWuAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-03T11:14:54.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2425.74</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DyWvAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-03T11:14:54.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>557.92</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-09-21 PCR PCR000066</TransactionID>
+				<Period>009</Period>
+				<TransactionDate>2017-09-21</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003159</Description>
+				<DocArchivalNumber>PCR000066</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-09-21</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DvWMAA0</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-09-21T17:00:35.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003159</Description>
+						<DebitAmount>10701.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DvWNAA0</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-09-21T17:00:35.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>8700.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DvWOAA0</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-09-21T17:00:35.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>2001.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-23 PCR PCR000083</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-23</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003795</Description>
+				<DocArchivalNumber>PCR000083</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-23</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ESTOAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-23T12:55:24.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003795</Description>
+						<DebitAmount>3038.47</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ESTPAA4</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-23T12:55:24.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2470.3</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ESTQAA4</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-23T12:55:24.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>568.17</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-23 PCR PCR000084</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-23</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003802</Description>
+				<DocArchivalNumber>PCR000084</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-23</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ESbUAAW</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-23T15:14:26.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003802</Description>
+						<DebitAmount>1931.1</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ESbVAAW</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-23T15:14:26.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1570.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ESbWAAW</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-23T15:14:26.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>361.1</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-04-14 PCR PCR000013</TransactionID>
+				<Period>004</Period>
+				<TransactionDate>2017-04-14</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Desconhecido</Description>
+				<DocArchivalNumber>PCR000013</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-04-14</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LQHGAA4</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-05-09T09:18:34.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>56.91</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LQHHAA4</RecordID>
+						<AccountID>626333</AccountID>
+						<SystemEntryDate>2017-05-09T09:18:34.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>56.91</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-31 PCR PCR000073</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-31</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Invoice Number:PIN003165 - CI</Description>
+				<DocArchivalNumber>PCR000073</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DyW5AAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-10-03T10:22:29.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003165 - CI</Description>
+						<DebitAmount>3813.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DyW6AAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-10-03T10:22:29.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3100.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DyW7AAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-10-03T10:22:29.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>713.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-06-06 PCR PCR000056</TransactionID>
+				<Period>006</Period>
+				<TransactionDate>2017-06-06</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002420</Description>
+				<DocArchivalNumber>PCR000056</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-06-06</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000005B3HAAU</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-07-18T16:34:45.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002420</Description>
+						<DebitAmount>4249.65</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000005B3IAAU</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-07-18T16:34:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3455.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000005B3JAAU</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-07-18T16:34:45.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>794.65</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-05-04 PCR PCR000015</TransactionID>
+				<Period>005</Period>
+				<TransactionDate>2017-05-04</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>ANULAÇAO FT 9909 03.03 E ANULACAO FT 4115 04.04</Description>
+				<DocArchivalNumber>PCR000015</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-05-04</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LScoAAG</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-05-19T09:38:00.000Z</SystemEntryDate>
+						<Description>ANULAÇAO FT 9909 03.03 E ANULACAO FT 4115 04.04</Description>
+						<DebitAmount>4.26</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LScpAAG</RecordID>
+						<AccountID>6227</AccountID>
+						<SystemEntryDate>2017-05-19T09:38:00.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>4.26</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-09-26 PCR PCR000070</TransactionID>
+				<Period>009</Period>
+				<TransactionDate>2017-09-26</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002188</Description>
+				<DocArchivalNumber>PCR000070</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-09-26</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000DwNdAAK</RecordID>
+						<AccountID>22112</AccountID>
+						<SystemEntryDate>2017-09-26T14:16:26.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002188</Description>
+						<DebitAmount>220.05</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000DwNeAAK</RecordID>
+						<AccountID>2819</AccountID>
+						<SystemEntryDate>2017-09-26T14:16:26.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>220.05</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000DwNfAAK</RecordID>
+						<AccountID>24341113</AccountID>
+						<SystemEntryDate>2017-09-26T14:16:26.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>50.61</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h24000000DwNgAAK</RecordID>
+						<AccountID>24342112</AccountID>
+						<SystemEntryDate>2017-09-26T14:16:26.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>50.61</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-11 PCR PCR000088</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-11</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002607</Description>
+				<DocArchivalNumber>PCR000088</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-11</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EbUUAA0</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-12-14T11:20:10.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002607</Description>
+						<DebitAmount>44744.36</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EbUVAA0</RecordID>
+						<AccountID>432</AccountID>
+						<SystemEntryDate>2017-12-14T11:20:10.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>36377.53</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EbUWAA0</RecordID>
+						<AccountID>2432211</AccountID>
+						<SystemEntryDate>2017-12-14T11:20:10.000Z</SystemEntryDate>
+						<Description>IMOCONT23</Description>
+						<CreditAmount>8366.83</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000098</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004057</Description>
+				<DocArchivalNumber>PCR000098</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsT7AAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:50:02.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004057</Description>
+						<DebitAmount>5810.69</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsT8AAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:50:02.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>4724.14</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsT9AAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:50:02.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>1086.55</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-06-16 PCR PCR000019</TransactionID>
+				<Period>006</Period>
+				<TransactionDate>2017-06-16</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Devolução caução HO16 - Avença Mensal Escritório / Office Monthly</Description>
+				<DocArchivalNumber>PCR000019</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-06-16</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LXXbAAO</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-06-16T10:46:48.000Z</SystemEntryDate>
+						<Description>Devolução caução&#13;
+HO16 - Avença Mensal Escritório / Office Monthly</Description>
+						<DebitAmount>2337.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LXXcAAO</RecordID>
+						<AccountID>622103</AccountID>
+						<SystemEntryDate>2017-06-16T10:46:48.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2337.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-24 PCR PCR000062</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-24</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002872</Description>
+				<DocArchivalNumber>PCR000062</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-24</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000HgJ5AAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-08-24T17:10:44.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002872</Description>
+						<DebitAmount>2659.9</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000HgJ6AAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-08-24T17:10:44.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2162.52</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000HgJ7AAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-08-24T17:10:44.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>497.38</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-28 PCR PCR000089</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003937</Description>
+				<DocArchivalNumber>PCR000089</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EbaBAAS</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-14T13:35:49.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003937</Description>
+						<DebitAmount>4394.18</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EbaCAAS</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-14T13:35:49.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3572.5</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EbaDAAS</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-14T13:35:49.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>821.68</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-03-08 PCR PCR000004</TransactionID>
+				<Period>003</Period>
+				<TransactionDate>2017-03-08</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000404</Description>
+				<DocArchivalNumber>PCR000004</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-03-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000dp5AAA</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-08T17:31:51.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000404</Description>
+						<DebitAmount>2693.7</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000dp6AAA</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-03-08T17:31:51.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2190.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000dp7AAA</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-03-08T17:31:51.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>503.7</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-03-08 PCR PCR000006</TransactionID>
+				<Period>003</Period>
+				<TransactionDate>2017-03-08</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000416</Description>
+				<DocArchivalNumber>PCR000006</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-03-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000dqIAAQ</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-08T17:55:51.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000416</Description>
+						<DebitAmount>2983.66</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000dqJAAQ</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-03-08T17:55:51.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2425.74</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000dqKAAQ</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-03-08T17:55:51.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>557.92</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-07-18 PCR PCR000057</TransactionID>
+				<Period>007</Period>
+				<TransactionDate>2017-07-18</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002421</Description>
+				<DocArchivalNumber>PCR000057</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-07-18</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000005B3WAAU</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-07-18T16:49:04.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002421</Description>
+						<DebitAmount>9188.1</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000005B3XAAU</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-07-18T16:49:04.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>7470.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000005B3YAAU</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-07-18T16:49:04.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>1718.1</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-02 PCR PCR000059</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-02</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>EQUIPAMENTO COPA</Description>
+				<DocArchivalNumber>PCR000059</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-02</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000005IcpAAE</RecordID>
+						<AccountID>22111</AccountID>
+						<SystemEntryDate>2017-08-02T13:44:00.000Z</SystemEntryDate>
+						<Description>EQUIPAMENTO COPA</Description>
+						<DebitAmount>154.92</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000005IcqAAE</RecordID>
+						<AccountID>6267</AccountID>
+						<SystemEntryDate>2017-08-02T13:44:00.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>154.92</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-29 PCR PCR000096</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-29</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004055</Description>
+				<DocArchivalNumber>PCR000096</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-29</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EsSnAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-29T12:37:34.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004055</Description>
+						<DebitAmount>9775.67</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSoAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-29T12:37:34.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>7947.7</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000EsSpAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-29T12:37:34.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>1827.97</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-28 PCR PCR000086</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003830</Description>
+				<DocArchivalNumber>PCR000086</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ETsoAAG</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-11-28T17:43:26.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003830</Description>
+						<DebitAmount>25265.15</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ETspAAG</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-11-28T17:43:26.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>20540.77</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ETsqAAG</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-11-28T17:43:26.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>4724.38</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-31 PCR PCR000106</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-31</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN003960</Description>
+				<DocArchivalNumber>PCR000106</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000cFyRAAU</RecordID>
+						<AccountID>21111</AccountID>
+						<SystemEntryDate>2018-01-03T14:21:27.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN003960</Description>
+						<DebitAmount>9231.15</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cFySAAU</RecordID>
+						<AccountID>622103</AccountID>
+						<SystemEntryDate>2018-01-03T14:21:27.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>7505.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cFyTAAU</RecordID>
+						<AccountID>243231</AccountID>
+						<SystemEntryDate>2018-01-03T14:21:27.000Z</SystemEntryDate>
+						<Description>OBSCONT23</Description>
+						<CreditAmount>1726.15</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-01-31 PCR PCR000008</TransactionID>
+				<Period>001</Period>
+				<TransactionDate>2017-01-31</TransactionDate>
+				<SourceID>Sérgio Nunes</SourceID>
+				<Description>Invoice Number:PIN000416</Description>
+				<DocArchivalNumber>PCR000008</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-01-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h240000000eLTAAY</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-03-10T17:57:07.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN000416</Description>
+						<DebitAmount>2983.66</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h240000000eLUAAY</RecordID>
+						<AccountID>3171</AccountID>
+						<SystemEntryDate>2017-03-10T17:57:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>2425.74</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h240000000eLVAAY</RecordID>
+						<AccountID>24342111</AccountID>
+						<SystemEntryDate>2017-03-10T17:57:07.000Z</SystemEntryDate>
+						<Description>REGCCONT23</Description>
+						<CreditAmount>557.92</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-05-10 PCR PCR000016</TransactionID>
+				<Period>005</Period>
+				<TransactionDate>2017-05-10</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN001851</Description>
+				<DocArchivalNumber>PCR000016</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-05-10</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000LTNHAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-05-26T16:04:18.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN001851</Description>
+						<DebitAmount>6063.62</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000LTNIAA4</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-05-26T16:04:18.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>4929.77</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000LTNJAA4</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-05-26T16:04:18.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>1133.85</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-07-25 PCR PCR000060</TransactionID>
+				<Period>007</Period>
+				<TransactionDate>2017-07-25</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN002415</Description>
+				<DocArchivalNumber>PCR000060</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-07-25</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000HgIlAAK</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-08-24T16:44:21.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN002415</Description>
+						<DebitAmount>1193.1</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000HgImAAK</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-08-24T16:44:21.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>970.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000HgInAAK</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-08-24T16:44:21.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>223.1</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-12-28 PCR PCR000092</TransactionID>
+				<Period>012</Period>
+				<TransactionDate>2017-12-28</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>Invoice Number:PIN004045</Description>
+				<DocArchivalNumber>PCR000092</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-12-28</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000Es9GAAS</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-28T18:11:32.000Z</SystemEntryDate>
+						<Description>Invoice Number:PIN004045</Description>
+						<DebitAmount>4305.0</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000Es9HAAS</RecordID>
+						<AccountID>311</AccountID>
+						<SystemEntryDate>2017-12-28T18:11:32.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>3500.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h1o000000Es9IAAS</RecordID>
+						<AccountID>2432113</AccountID>
+						<SystemEntryDate>2017-12-28T18:11:32.000Z</SystemEntryDate>
+						<Description>CCONT23</Description>
+						<CreditAmount>805.0</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>CSH</JournalID>
+			<Description>Cash Entries</Description>
+			<Transaction>
+				<TransactionID>2017-11-30 CSH CSH006384</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-30</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Desconhecido</Description>
+				<DocArchivalNumber>CSH006384</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-30</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNLAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-04T08:49:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>7995.0</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNMAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-04T08:49:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>2998.0</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNNAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-04T08:49:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>9448.12</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNOAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-04T08:49:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>2252.13</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNPAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-04T08:49:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>1732.91</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000EVNQAA4</RecordID>
+						<AccountID>22114</AccountID>
+						<SystemEntryDate>2017-12-04T08:49:07.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>3110.39</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>MONTHLY</JournalID>
+			<Description>Operações Mensais</Description>
+			<Transaction>
+				<TransactionID>2017-11-21 MONTHLY SIN020876</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-21</TransactionDate>
+				<SourceID>Tatiana Abreu</SourceID>
+				<Description>AP-026094</Description>
+				<DocArchivalNumber>SIN020876</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-21</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000ERRgAAO</RecordID>
+						<AccountID>21111</AccountID>
+						<SystemEntryDate>2017-11-21T15:41:46.000Z</SystemEntryDate>
+						<Description>AP-026094</Description>
+						<DebitAmount>52.75</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000ERRhAAO</RecordID>
+						<AccountID>7816</AccountID>
+						<SystemEntryDate>2017-11-21T15:41:46.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>9.33</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ERRiAAO</RecordID>
+						<AccountID>7816</AccountID>
+						<SystemEntryDate>2017-11-21T15:41:46.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1.71</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ERRjAAO</RecordID>
+						<AccountID>2783</AccountID>
+						<SystemEntryDate>2017-11-21T15:41:46.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>28.0</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ERRkAAO</RecordID>
+						<AccountID>7816</AccountID>
+						<SystemEntryDate>2017-11-21T15:41:46.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>5.12</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000ERRlAAO</RecordID>
+						<AccountID>2433313</AccountID>
+						<SystemEntryDate>2017-11-21T15:41:46.000Z</SystemEntryDate>
+						<Description>VCONT23</Description>
+						<CreditAmount>8.59</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-21 MONTHLY JNL094115</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-21</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Salários - 2017/011</Description>
+				<DocArchivalNumber>JNL094115</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-11-21</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000cL74AAE</RecordID>
+						<AccountID>63511</AccountID>
+						<SystemEntryDate>2018-01-09T15:26:01.000Z</SystemEntryDate>
+						<Description>MI Val.Liq + Tx Soc. E.</Description>
+						<DebitAmount>146.41</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cL75AAE</RecordID>
+						<AccountID>2451</AccountID>
+						<SystemEntryDate>2018-01-09T15:26:01.000Z</SystemEntryDate>
+						<Description>-(MI Val.Liq + Tx Soc. E.)</Description>
+						<CreditAmount>146.41</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cL76AAE</RecordID>
+						<AccountID>63201</AccountID>
+						<SystemEntryDate>2018-01-09T15:26:01.000Z</SystemEntryDate>
+						<Description>MI Val. Iliquid S1 Vencimento</Description>
+						<DebitAmount>20328.78</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cL77AAE</RecordID>
+						<AccountID>63204</AccountID>
+						<SystemEntryDate>2018-01-09T15:26:01.000Z</SystemEntryDate>
+						<Description>MI Val. Iliquid S30 Sub almoço</Description>
+						<DebitAmount>1708.0</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cL78AAE</RecordID>
+						<AccountID>2722203</AccountID>
+						<SystemEntryDate>2018-01-09T15:26:01.000Z</SystemEntryDate>
+						<Description>MI Val. Iliquid S75</Description>
+						<DebitAmount>847.02</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cL79AAE</RecordID>
+						<AccountID>2722201</AccountID>
+						<SystemEntryDate>2018-01-09T15:26:01.000Z</SystemEntryDate>
+						<Description>MI Val. Iliquid S76</Description>
+						<DebitAmount>7643.13</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-08-31 MONTHLY JNL121169</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-31</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>ACRESC. VENC AGO</Description>
+				<DocArchivalNumber>JNL121169</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-08-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000cd3aAAA</RecordID>
+						<AccountID>63202</AccountID>
+						<SystemEntryDate>2018-01-25T18:38:25.000Z</SystemEntryDate>
+						<Description>ACRESC. VENC AGO</Description>
+						<DebitAmount>2532.26</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cd3bAAA</RecordID>
+						<AccountID>2722205</AccountID>
+						<SystemEntryDate>2018-01-25T18:38:25.000Z</SystemEntryDate>
+						<Description>ACRESC. VENC AGO</Description>
+						<CreditAmount>2532.26</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cd3cAAA</RecordID>
+						<AccountID>63512</AccountID>
+						<SystemEntryDate>2018-01-25T18:38:25.000Z</SystemEntryDate>
+						<Description>ACRESC. VENC AGO</Description>
+						<DebitAmount>601.41</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cd3dAAA</RecordID>
+						<AccountID>2722206</AccountID>
+						<SystemEntryDate>2018-01-25T18:38:25.000Z</SystemEntryDate>
+						<Description>ACRESC. VENC AGO</Description>
+						<CreditAmount>601.41</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cd3eAAA</RecordID>
+						<AccountID>63201</AccountID>
+						<SystemEntryDate>2018-01-25T18:38:25.000Z</SystemEntryDate>
+						<Description>ACRESC. VENC AGO</Description>
+						<DebitAmount>2207.26</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cd3fAAA</RecordID>
+						<AccountID>2722205</AccountID>
+						<SystemEntryDate>2018-01-25T18:38:25.000Z</SystemEntryDate>
+						<Description>ACRESC. VENC AGO</Description>
+						<CreditAmount>2207.26</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-09-30 MONTHLY JNL121272</TransactionID>
+				<Period>009</Period>
+				<TransactionDate>2017-09-30</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>DEPREC SET</Description>
+				<DocArchivalNumber>JNL121272</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2017-09-30</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h1o000000cdvQAAQ</RecordID>
+						<AccountID>6422</AccountID>
+						<SystemEntryDate>2018-01-26T15:29:53.000Z</SystemEntryDate>
+						<Description>DEPREC SET</Description>
+						<DebitAmount>60.63</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cdvRAAQ</RecordID>
+						<AccountID>4382</AccountID>
+						<SystemEntryDate>2018-01-26T15:29:53.000Z</SystemEntryDate>
+						<Description>DEPREC SET</Description>
+						<CreditAmount>60.63</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cdvSAAQ</RecordID>
+						<AccountID>6423</AccountID>
+						<SystemEntryDate>2018-01-26T15:29:53.000Z</SystemEntryDate>
+						<Description>DEPREC SET</Description>
+						<DebitAmount>656.4</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cdvTAAQ</RecordID>
+						<AccountID>4383</AccountID>
+						<SystemEntryDate>2018-01-26T15:29:53.000Z</SystemEntryDate>
+						<Description>DEPREC SET</Description>
+						<CreditAmount>656.4</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h1o000000cdvUAAQ</RecordID>
+						<AccountID>6425</AccountID>
+						<SystemEntryDate>2018-01-26T15:29:53.000Z</SystemEntryDate>
+						<Description>DEPREC SET</Description>
+						<DebitAmount>1025.89</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h1o000000cdvVAAQ</RecordID>
+						<AccountID>4385</AccountID>
+						<SystemEntryDate>2018-01-26T15:29:53.000Z</SystemEntryDate>
+						<Description>DEPREC SET</Description>
+						<CreditAmount>1025.89</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>DIV</JournalID>
+			<Description>Operações Diversas</Description>
+			<Transaction>
+				<TransactionID>2017-11-21 DIV JNL093834</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-21</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>EASYPAY Collection Confirmation: AP-010742</Description>
+				<DocArchivalNumber>JNL093834</DocArchivalNumber>
+				<TransactionType>J</TransactionType>
+				<GLPostingDate>2017-11-21</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>a3h24000000EROyAAO</RecordID>
+						<AccountID>21111</AccountID>
+						<SystemEntryDate>2017-11-21T09:01:51.000Z</SystemEntryDate>
+						<Description>MB-2476</Description>
+						<CreditAmount>763.58</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h24000000EROzAAO</RecordID>
+						<AccountID>2781</AccountID>
+						<SystemEntryDate>2017-11-21T09:01:51.000Z</SystemEntryDate>
+						<Description>MB-2476</Description>
+						<DebitAmount>763.58</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-21 DIV JNL093833</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-21</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>EASYPAY Collection Confirmation: AP-004557</Description>
+				<DocArchivalNumber>JNL093833</DocArchivalNumber>
+				<TransactionType>J</TransactionType>
+				<GLPostingDate>2017-11-21</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>a3h24000000ERP0AAO</RecordID>
+						<AccountID>21111</AccountID>
+						<SystemEntryDate>2017-11-21T09:02:29.000Z</SystemEntryDate>
+						<Description>MB-2494</Description>
+						<CreditAmount>1150.31</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h24000000ERP1AAO</RecordID>
+						<AccountID>2781</AccountID>
+						<SystemEntryDate>2017-11-21T09:02:29.000Z</SystemEntryDate>
+						<Description>MB-2494</Description>
+						<DebitAmount>1150.31</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2017-11-21 DIV JNL093835</TransactionID>
+				<Period>011</Period>
+				<TransactionDate>2017-11-21</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>EASYPAY Collection Confirmation: AP-018921</Description>
+				<DocArchivalNumber>JNL093835</DocArchivalNumber>
+				<TransactionType>J</TransactionType>
+				<GLPostingDate>2017-11-21</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>a3h24000000ERP2AAO</RecordID>
+						<AccountID>21111</AccountID>
+						<SystemEntryDate>2017-11-21T09:02:36.000Z</SystemEntryDate>
+						<Description>MB-2606</Description>
+						<CreditAmount>148.23</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h24000000ERP3AAO</RecordID>
+						<AccountID>2781</AccountID>
+						<SystemEntryDate>2017-11-21T09:02:36.000Z</SystemEntryDate>
+						<Description>MB-2606</Description>
+						<DebitAmount>148.23</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>IVA</JournalID>
+			<Description>Apuramento de IVA</Description>
+			<Transaction>
+				<TransactionID>2017-08-31 IVA JNL094131</TransactionID>
+				<Period>008</Period>
+				<TransactionDate>2017-08-31</TransactionDate>
+				<SourceID>Célia Pedro</SourceID>
+				<Description>Apuramento de IVA 2017/008</Description>
+				<DocArchivalNumber>JNL094131</DocArchivalNumber>
+				<TransactionType>R</TransactionType>
+				<GLPostingDate>2017-08-31</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>a3h24000000EUPTAA4</RecordID>
+						<AccountID>2433313</AccountID>
+						<SystemEntryDate>2017-11-29T19:07:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>39951.24</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000EUPUAA4</RecordID>
+						<AccountID>2435</AccountID>
+						<SystemEntryDate>2017-11-29T19:07:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>39951.24</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h24000000EUPVAA4</RecordID>
+						<AccountID>243334</AccountID>
+						<SystemEntryDate>2017-11-29T19:07:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>1251.02</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>a3h24000000EUPWAA4</RecordID>
+						<AccountID>2435</AccountID>
+						<SystemEntryDate>2017-11-29T19:07:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>1251.02</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>a3h24000000EUPXAA4</RecordID>
+						<AccountID>2432211</AccountID>
+						<SystemEntryDate>2017-11-29T19:07:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<CreditAmount>14153.69</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>a3h24000000EUPYAA4</RecordID>
+						<AccountID>2435</AccountID>
+						<SystemEntryDate>2017-11-29T19:07:45.000Z</SystemEntryDate>
+						<Description>Desconhecido</Description>
+						<DebitAmount>14153.69</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+	</GeneralLedgerEntries>
+</AuditFile>
